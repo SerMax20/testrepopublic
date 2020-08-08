@@ -4,7 +4,7 @@ import os
 class Commandi:
     LEECH = os.environ.get(
         "COMMANDI_LEECH",
-        "leech@MaxLeechVideo_bot"
+        "leech"
     )
     PURGE = os.environ.get(
         "COMMANDI_PURGE",
@@ -12,11 +12,11 @@ class Commandi:
     )
     YTDL = os.environ.get(
         "COMMANDI_YTDL",
-        "ytdl@MaxLeechVideo_bot"
+        "ytdl"
     )
     STATUS = os.environ.get(
         "COMMANDI_STATUS",
-        "status@MaxLeechVideo_bot"
+        "status"
     )
     CANCEL = os.environ.get(
         "COMMANDI_CANCEL",
@@ -40,11 +40,11 @@ class Commandi:
     )
     SAVETHUMBNAIL = os.environ.get(
         "COMMANDI_SAVETHUMBNAIL",
-        "savethumbnail@MaxLeechVideo_bot"
+        "savethumbnail"
     )
     CLEARTHUMBNAIL = os.environ.get(
         "COMMANDI_CLEARTHUMBNAIL",
-        "clearthumbnail@MaxLeechVideo_bot"
+        "clearthumbnail"
     )
     GET_RCLONE_CONF_URI = os.environ.get(
         "COMMANDI_GET_RCLONE_CONF_URI",
